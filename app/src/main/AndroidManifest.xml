@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Career.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".AboutusActivity"
+            android:exported="false" />
+        <activity
             android:name=".CompanyActivity"
             android:exported="false">
             <meta-data
